@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# Whisper model cache
+~/.cache/huggingface/
+~/.cache/whisper/
+
+# Temp & local files
+tmp_output
+notes.txt
+*.wav
+*.mp3
+*.srt
+*.vtt
